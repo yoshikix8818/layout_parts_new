@@ -1,5 +1,95 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
+.container {
+  width: 500px;
+  height: 500px;
+  background: #ecf1f2;
+  margin: 0 auto;
+  position: relative;
+}
 
+.a {
+  width:100px;
+  height:100px;
+  width: 100px;
+  position: absolute;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 100px;
+  text-align: center;
+}
+
+.one {
+  z-index: 1;
+  background: #ffefd3;
+  top: 40px;
+  left: 200px;
+}
+
+.two {
+  z-index: 2;
+  background: #7084de;
+  top: 120px;
+  left: 280px;
+}
+
+.three {
+  z-index: 3;
+  background: #d0ecea;
+  top: 200px;
+  left: 360px;
+}
+
+.four {
+  z-index: 4;
+  background: #8b7a5e;
+  top:280px;
+  left: 280px;
+}
+
+.five {
+  z-index: 5;
+  background: #9fd6d2;
+  top: 360px;
+  left: 200px;
+}
+
+.six {
+  z-index: 6;
+  background: #fffee4;
+  top: 280px;
+  left: 120px;
+}
+
+.seven {
+  z-index: 7;
+  background: #deae70;
+  top: 200px;
+  left:40px;
+}
+
+.eight {
+  z-index: 8;
+  background: #de70cf;
+  top: 120px;
+  left:120px;
+}
+
+.nine {
+  background: #2b69a3;
+  position: fixed;
+  top: 10px;
+  left: 10px;
+}
+
+.eight:after {
+  position: absolute;
+    top: 0;
+    right: 0;
+    width: 20px;
+    height: 20px;
+    background-color: #FFEFD3;
+    content: "";
+}
 /* 回答はここに書いてね */

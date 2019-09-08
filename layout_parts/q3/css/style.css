@@ -1,5 +1,42 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
+ .box1 {
+  table-layout: fixed;
+  width: 100%;
+}
+ .box1, th, td {
+  border: solid #dedede 1px;
+  padding: 10px;
 
+}
+
+table th {
+  background: #2244aa;
+  font-size: 18px;
+  line-height: 26px;
+  color: white;
+}
+
+td {
+  text-align: center;
+  vertical-align: middle;
+}
+
+table td {
+  font-size: 16px;
+  line-height: 22px;
+}
+
+tr:nth-child(even) {
+  background: #ecf1f2;
+}
+
+tbody > tr:last-child {
+  border-top: dashed #000 2px;
+}
+
+/* tr:first-child {
+  border: none;
+} */
 /* 回答はここに書いてね */

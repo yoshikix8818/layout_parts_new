@@ -1,5 +1,95 @@
+
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
+.clearfix:after {
+  content:"";
+  clear: both;
+  display: block;
+}
 
-/* 回答はここに書いてね */
+.box1 {
+  width: 225px;
+  font-size: 16px;
+  float: left;
+  margin-left: 50px;
+  box-sizing: border-box;
+}
+
+.box1:first-child {
+  margin-left: 0;
+}
+
+.table {
+  display: table;
+}
+
+.box2 {
+  width: 225px;
+  font-size: 16px;
+  padding-left: 50px;
+}
+
+.box2:first-child {
+  padding-left: 0;
+}
+
+.cell {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.parent {
+  font-size: 0;
+}
+.box3 {
+  display: inline-block;
+  font-size: 16px;
+  width: 225px;
+  margin-left: 50px;
+  vertical-align: middle;
+  box-sizing: border-box;
+}
+
+.box3:first-child {
+  margin-left: 0;
+}
+
+.box4 {
+  width: 225px;
+  font-size: 16px;
+  vertical-align: middle;
+  box-sizing: border-box;
+}
+
+.flex {
+  display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+.max {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.box5 {
+  vertical-align: top;
+}
+
+.boxfixed {
+  display: inline-block;
+  width: 300px;
+}
+
+.message{
+  font-size: 16px;
+}
+
+.boxmove {
+  display: inline-block;
+  width: 100%;
+  margin-left: -300px;
+  padding-left: 350px;
+  box-sizing: border-box;
+}
