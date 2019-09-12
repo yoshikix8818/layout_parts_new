@@ -71,12 +71,12 @@
 .max {
   width: 100%;
   box-sizing: border-box;
+  font-size: 0;
 }
 
 .box5 {
   vertical-align: top;
 }
-
 .boxfixed {
   display: inline-block;
   width: 300px;

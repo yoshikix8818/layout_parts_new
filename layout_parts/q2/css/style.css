@@ -9,12 +9,12 @@
   box-sizing: border-box;
 }
 
-.photo1 {
+.photo-left {
   margin: 0 20px 10px 0;
   float: left;
 }
 
-.photo2 {
+.photo-right {
   margin: 0 0px 10px 20px;
   float: right;
 }
