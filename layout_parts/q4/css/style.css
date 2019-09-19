@@ -2,18 +2,18 @@
 
 /* 回答はここに書いてね */
 
-.p4 {
+.q4-content {
   background: #ecf1f2;
   padding: 20px;
 }
 
-.box1 {
+.table-box {
 display: table;
 margin-top: 20px;
 width: 100%;
 }
 
-.box1:first-child {
+.table-box:first-child {
   margin-top: 0;
 }
 

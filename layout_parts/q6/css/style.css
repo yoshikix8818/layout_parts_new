@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
-.box1 {
+.text-align-box {
   text-align: center;
 } 
 .same {
@@ -14,33 +14,33 @@
   display: inline-block;
 }
 
-.wid {
+.margin-text {
   margin: 0 auto;
   text-align: center;
 }
 
-.table {
+.table-inner {
   display: table;
 }
 
-.box2 {
+.table-box {
   display: table-cell;
   text-align: center;
   vertical-align: middle;
 }
-.tabletxt {
+.table-text {
   background: #fff;
   padding: 10px;
   display: inline-block;
 }
 
-.flex {
+.flex-box {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.flextxt {
+.flex-text {
   padding: 10px;
   background: #fff;
 }
@@ -50,7 +50,7 @@
 }
 
 
-.notmove {
+.not-move {
   position: absolute;
   top: 0;
   bottom: 0;

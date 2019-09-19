@@ -3,24 +3,24 @@
 /* 回答はここに書いてね */
 .car {
   position: relative;
-    overflow: hidden;
-    width: 500px;
-    height: 333px;
-    margin: 0 auto;
-    cursor: pointer;
+  overflow: hidden;
+  width: 500px;
+  height: 333px;
+  margin: 0 auto;
+  cursor: pointer;
 }
 
 .carimg {
   transition: all 0.5s;
 
 }
-.car:hover  .carimg{
+.car:hover .carimg{
   transform: scale(1.5);
 
 }
 .text {
 position: absolute;
-bottom: 0;
+top: 0;
 left: 0;
 width: 100%;
 padding: 20px;
@@ -29,8 +29,18 @@ box-sizing: border-box;
 word-break: break-all;
 }
 
-.car:hover  .cartext{
-  bottom: 0;
+.car:hover .cartext{
+  top: 0;
+}
+
+.cartext {
+  position: absolute;
+  top: -100%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, 0));
+  transition: all .5s;
 }
 
 .circle {
@@ -40,7 +50,7 @@ word-break: break-all;
   border-radius: 50%;
   margin: 0 auto;
   border-top-color: #00bcd4;
-  animation: guruguru 1.1s infinite;
+  animation: guruguru .1s infinite;
   animation-timing-function: linear;
 }
 
@@ -49,18 +59,8 @@ word-break: break-all;
     transform: rotate(0);
   }
   100% {
-    transform: rotate(360deg);
+    transform: rotate(36000deg);
   }
 }
 
-
-.cartext {
-  position: absolute;
-  bottom: -100%;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, .8));
-  transition: all .5s;
-}
 /* 回答はここに書いてね */

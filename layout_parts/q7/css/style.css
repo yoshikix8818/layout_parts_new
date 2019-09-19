@@ -8,7 +8,7 @@
   display: block;
 }
 
-.box1 {
+.float-box {
   width: 225px;
   font-size: 16px;
   float: left;
@@ -16,7 +16,7 @@
   box-sizing: border-box;
 }
 
-.box1:first-child {
+.float-box:first-child {
   margin-left: 0;
 }
 
@@ -24,13 +24,13 @@
   display: table;
 }
 
-.box2 {
+.table {
   width: 225px;
   font-size: 16px;
   padding-left: 50px;
 }
 
-.box2:first-child {
+.table:first-child {
   padding-left: 0;
 }
 
@@ -42,7 +42,7 @@
 .parent {
   font-size: 0;
 }
-.box3 {
+.inline-block-box {
   display: inline-block;
   font-size: 16px;
   width: 225px;
@@ -51,11 +51,11 @@
   box-sizing: border-box;
 }
 
-.box3:first-child {
+.inline-block-box:first-child {
   margin-left: 0;
 }
 
-.box4 {
+.flex-box {
   width: 225px;
   font-size: 16px;
   vertical-align: middle;
@@ -74,10 +74,10 @@
   font-size: 0;
 }
 
-.box5 {
+.q7-5-box {
   vertical-align: top;
 }
-.boxfixed {
+.box-fixed {
   display: inline-block;
   width: 300px;
 }
@@ -86,7 +86,7 @@
   font-size: 16px;
 }
 
-.boxmove {
+.box-move {
   display: inline-block;
   width: 100%;
   margin-left: -300px;

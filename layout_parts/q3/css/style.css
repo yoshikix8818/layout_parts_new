@@ -1,38 +1,38 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
- .box1 {
+ .menu {
   table-layout: fixed;
   width: 100%;
 }
- .box1, th, td {
+ .menu th, .menu td {
   border: solid #dedede 1px;
   padding: 10px;
 
 }
 
-table th {
+.menu th {
   background: #2244aa;
   font-size: 18px;
   line-height: 26px;
   color: white;
 }
 
-td {
+.menu td {
   text-align: center;
   vertical-align: middle;
 }
 
-table td {
+.menu td {
   font-size: 16px;
   line-height: 22px;
 }
 
-tr:nth-child(even) {
+.menu tr:nth-child(even) {
   background: #ecf1f2;
 }
 
-tbody > tr:last-child {
+.menu tbody > tr:last-child {
   border-top: dashed #000 2px;
 }
 

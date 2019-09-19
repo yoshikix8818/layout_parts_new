@@ -32,26 +32,26 @@
           <!-- 新たにタグは追加しなくてもできます。 -->
           <div class="q8 q8--btn">
             <p class="q8__title">ー small ー</p>
-            <div class="com sm btn">common</div>
-            <div class="er sm btn">error</div>
-            <div class="dis sm btn">disabled</div>
-            <div class="sha sm btn shadow">shadow</div>
+            <div class="common small btn">common</div>
+            <div class="error small btn">error</div>
+            <div class="disabled small btn">disabled</div>
+            <div class="shadow small btn shadow-color">shadow</div>
           </div>
 
           <div class="q8 q8--btn ">
             <p class="q8__title">ー middle ー</p>
-            <div class="com mid btn">common</div>
-            <div class="er mid btn">error</div>
-            <div class="dis mid btn">disabled</div>
-            <div class="sha mid btn shadow">shadow</div>
+            <div class="common middle btn">common</div>
+            <div class="error middle btn">error</div>
+            <div class="disabled middle btn">disabled</div>
+            <div class="shadow middle btn shadow-color">shadow</div>
           </div>
 
           <div class="q8 q8--btn">
             <p class="q8__title">ー large ー</p>
-            <div class="com lar btn">common</div>
-            <div class="er lar btn">error</div>
-            <div class="dis lar btn">disabled</div>
-            <div class="sha lar btn shadow">shadow</div>
+            <div class="common large btn">common</div>
+            <div class="error large btn">error</div>
+            <div class="disabled large btn">disabled</div>
+            <div class="shadow large btn shadow-color">shadow</div>
           </div>
           <!-- 回答はここに書いてね -->
         </div>
@@ -115,16 +115,17 @@
                       </li>
 
                       <li class="clearfix">
-                        <p class="q8__main__items__title">性別</p>
+                        <p class="q8__main__items__title">性別</p> 
                         <div class="q8__main__items__content">
-                          <label class="q8__radio">
-                            <input class="q8__radio__btn" type="radio" name="gender" value="male">
-                            <span class="q8__radio__text">男性</span>
+                          <label class="radio">
+                            <input  class="radio-btn" type="radio" name="gender" value="male">
+                            <span class="radio-text">男性</span>
+                          </label> 
+                          <label class="radio">
+                              <input class="radio-btn" type="radio" name="gender" value="female">
+                              <span class="radio-text">女性</span>
                           </label>
-                          <label class="q8__radio">
-                            <input class="q8__radio__btn" type="radio" name="gender" value="female">
-                            <span class="q8__radio__text">女性</span>
-                          </label>
+                          
                         </div>
                       </li>
 
@@ -156,10 +157,8 @@
 
                       <li class="clearfix">
                         <div class="q8__main__items__content">
-                          <div class="q8__checkbox">
-                            <input class="q8__checkbox__btn" id="q8-checkbox" type="checkbox" name="twenty" value="true">
-                            <label for="q8-checkbox" class="q8__checkbox__text">20歳以上です</label>
-                          </div>
+                          <input id="checkbox" type="checkbox" class="checkbox-btn">
+                          <label for="checkbox" class="checkbox-text">20歳以上です。</label>
                         </div>
                       </li>
                       
