@@ -12,8 +12,8 @@
 
 .serif::before, .serif::after {
   position: absolute;
-  top: 0;
-  right: 0;
+  bottom: 0;
+  left: 0;
   width: 0;
   height: 0;
   border: 20px solid transparent;
@@ -21,14 +21,14 @@
 }
 
 .serif:before {
-  top: -45px;
-  right: 100px;
-  border-bottom-color: #222;
+  bottom: -45px;
+  left: 30px;
+  border-top-color: #222;
 }
 .serif:after {
-  top: -38px;
-  right: 100px;
-  border-bottom-color: #fff;
+  bottom: -38px;
+  left: 30px;
+  border-top-color: #fff;
 }
 .fukidashi-text {
   font-size: 16px;
